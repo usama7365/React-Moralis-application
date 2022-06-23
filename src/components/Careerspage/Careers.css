@@ -1,0 +1,238 @@
+nav {
+  background-color: #00f;
+  overflow: hidden;
+  padding: 1em;
+  border-bottom: 1px solid #000;
+}
+nav a {
+  color: #fff;
+}
+nav a:visited {
+  color: #fff;
+}
+nav .navWide {
+  display: none;
+  margin: 0 auto;
+}
+nav .navWide .wideDiv {
+  text-align: center;
+}
+nav .navWide .wideDiv a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 2em;
+}
+nav .navNarrow i {
+  float: left;
+  cursor: pointer;
+  color: #fff;
+}
+nav .navNarrow .narrowLinks {
+  display: none;
+}
+nav .navNarrow .narrowLinks a {
+  text-decoration: none;
+  display: block;
+  float: left;
+  clear: left;
+  padding: 0.5em 0;
+}
+
+@media (min-width: 480px) {
+  nav .navWide {
+    display: block;
+  }
+  nav .navNarrow {
+    display: none;
+  }
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.career-web {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  padding: 100px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(../Careerspage/1.jpeg);
+}
+
+.career-web span,
+button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.career-web + button {
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.career-unique {
+  height: 115vh;
+  width: 100%;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.career-unique p {
+  font-size: 21px;
+  color: #252525;
+  font-weight: 400;
+  font-family: Inter;
+}
+
+.careers-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  border-bottom: 1px solid black;
+}
+.careers-container:hover {
+  color: #252525;
+}
+.departments-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+
+.careers-secton {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  /* width: 200px;
+  height: 200px; */
+  /* display: flex; */
+}
+
+.careers-img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 50px;
+}
+
+.careers-img img {
+  width: 50vh;
+  height: 28vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.careers-img p {
+}
+
+.Moralis-Values {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.career2-img {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.caree1rsimg2 {
+  width: 80vh;
+  height: 50vh;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.caree1rsimg22 {
+  width: 80vh;
+  height: 50vh;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.career-navbar a,
+span {
+  padding: 10px;
+  color: #26c49b;
+  text-decoration: none;
+}
+
+.career-employe-login span {
+  padding: 100px;
+}
+.career-box{
+  width: 150vh;
+  height: 50vh;
+  background-color: #26c49b;
+  color: white;
+  border-radius: 20px;
+}
+.career-box .input-group{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left:20%;
+  text-align: center;
+}
+
+/* .scroll-container{
+display: block;
+width: 350px;
+height: 200px;
+scroll-behavior: smooth;
+}
+scroll-page{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+font-size: 5em;
+cursor: pointer;
+
+} */
+
+.career-noo{
+height: 100vh;
+width: 100%;
+background: rgb(255, 0, 0);
+position: relative;
+display:flex ;
+justify-content: center;
+align-items: center;
+color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

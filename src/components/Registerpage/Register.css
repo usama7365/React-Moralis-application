@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* 
+.row{
+    width: 100%;
+    position: relative;
+    background-image: url("../loginpage/background.svg");
+background-size: 100% 100% ;
+    border: 1px solid #000;
+    height: 90vh;
+} */
+
+.login-section{
+    background-color: white;
+    height: 400px;
+    padding: 40px;
+    height: 700px;
+    
+    border-radius: 30px;
+    justify-content:center;
+     align-items:center;
+}
+
+
+/* .backgroundimg{
+   width: 100%;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+} */
+/* 
+.backgroundimg1{
+    width: 160px;
+    height: 40px;
+}
+.backgroundimg{
+    position: absolute;
+} */
+
+/* .login-section{
+  height: 700px;
+   position: relative;
+   background-color: white;
+   
+   border-radius: 30px;
+   align-items: center;
+   text-align: center;
+   padding: 100px;
+   margin-left: 800px;
+   
+   
+
+} */

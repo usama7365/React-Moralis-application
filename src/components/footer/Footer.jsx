@@ -8,6 +8,8 @@ import {
 } from "react-icons/fa";
 import "../footer/style.css";
 import "bootstrap/dist/css/bootstrap.css";
+import Img1logo from "../../imagess/Logo.png"
+
 
 export const Footer = () => {
   return (
@@ -15,7 +17,7 @@ export const Footer = () => {
       <div className="footer-section">
         <div className="column-one">
           <div className="footer-logo">
-            <img src="/images/Logo.png" alt="" />
+            <img src={Img1logo} alt="" />
           </div>
           <br />
           <br />

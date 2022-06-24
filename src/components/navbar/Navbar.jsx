@@ -159,7 +159,7 @@ export const Navbar = () => {
       </div>
 
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route exact path="/" element={<Homepage />} />
           <Route path="/Pricepage" element={<Pricepage />} />
           <Route path="/https://moralis.io/blog/" element={<Pricepage/>}/>
           <Route path="/Blogs" element={<Blogs />} />

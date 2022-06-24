@@ -180,11 +180,12 @@ span {
   padding: 100px;
 }
 .career-box{
-  width: 150vh;
-  height: 50vh;
+  width: 160vh;
+  height: 35vh;
   background-color: #26c49b;
   color: white;
   border-radius: 20px;
+  padding: 10vh;  
 }
 .career-box .input-group{
   justify-content: center;
@@ -192,6 +193,7 @@ span {
   display: flex;
   margin-left:20%;
   text-align: center;
+
 }
 
 /* .scroll-container{
@@ -209,11 +211,14 @@ font-size: 5em;
 cursor: pointer;
 
 } */
+.career-Web3-Technology{
+ background-color: #F8F8F8;
+} 
 
 .career-noo{
 height: 100vh;
 width: 100%;
-background: rgb(255, 0, 0);
+background: bl;
 position: relative;
 display:flex ;
 justify-content: center;

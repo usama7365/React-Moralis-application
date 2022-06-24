@@ -6,6 +6,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+  nav {
+    background-color: #00f;
+    /* overflow: hidden; */
+    padding: 1em;
+    border-bottom: 1px solid #000;
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -13,6 +20,12 @@
   .example {
     background: green;
   }
+  nav {
+    background-color: #00f;
+    overflow: visible !important;
+    padding: 1em;
+    border-bottom: 1px solid #000;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -20,6 +33,12 @@
   .example {
     background: blue;
   }
+  nav {
+    background-color: #00f;
+    /* overflow: hidden; */
+    padding: 1em;
+    border-bottom: 1px solid #000;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

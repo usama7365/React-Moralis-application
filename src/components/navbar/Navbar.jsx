@@ -15,7 +15,7 @@ import div1img from "../navbar/navbarimages/div1img.svg"
 import div2img from "../navbar/navbarimages/div2img.svg"
 import div3img from "../navbar/navbarimages/div3img.svg"
 import downloadimg from "../homepage/homepageimg/download.png"
-import Img2logo from "../../imagess/Logo.png"
+import Img1logo from '../../imagess/Logo.png'
 
 export const Navbar = () => {
   return (
@@ -26,7 +26,7 @@ export const Navbar = () => {
           class="navbar navbar-expand-lg navbar-light bg-light"
         >
           <div class="container-fluid">
-            <img id="logo" src={Img2logo} alt=""  to={"/*"} />
+            <img id="logo" src={Img1logo} alt=""  to={"/*"} />
             <button
               class="navbar-toggler"
               type="button"

@@ -23,33 +23,29 @@ export const Careers = () => {
     number: "0",
   });
 
-
-const  burgerToggle= ()=> {
+  const burgerToggle = () => {
     let linksEl = document.querySelector(".narrowLinkss");
     if (linksEl.style.display === "none") {
       linksEl.style.display = "block";
     } else {
       linksEl.style.display = "none";
     }
-  }
+  };
 
   return (
     <>
-   <nav>
+      <nav>
         <div className="navWide">
-          
-        <div className="wideDiv">
-          <i className="fa fa-bars fa-2x" onClick={burgerToggle}></i>
-          <div className="narrowLinkss">
-            <div className="career-noo">hdishidhasbdjasbdbasuidhabdudbdhuih</div>
+          <div className="wideDiv">
+            <i className="fa fa-bars fa-2x" onClick={burgerToggle}></i>
+            <div className="narrowLinkss">
+              <div className="career-noo">
+                hdishidhasbdjasbdbasuidhabdudbdhuih
+              </div>
+            </div>
           </div>
         </div>
-        </div>
-
       </nav>
-
-
-
 
       <div className="career-main-page">
         <div className="career-web">
@@ -324,21 +320,24 @@ const  burgerToggle= ()=> {
               <h2>Let’s recruit together and find your next colleague.</h2>
               <div class="input-group col-md-6 ">
                 <input
-                  class="form-control bg-light border-end-0 border rounded-pill"
+                  class="form-control bg-light "
                   type="text"
-                  value="search"
-                  id="example-search-input"
-                />
+                  placeholder="name@morails.io"
+                  id="-search-inexampleput"
+                /><i class="	far fa-arrow-alt-circle-right"></i>
                 <span class="input-group-append">
                   <button
-                    class="btn btn-outline-secondary bg-info border-start-0 border rounded-pill ms-n3"
+                    class="	far fa-arrow-alt-circle-right"
                     type="button"
                   >
-                    <i class="fa fa-search"></i>
+                    
                   </button>
                 </span>
               </div>
+             
             </div>
+            <p style={{fontfamily: "ui-sans-serif"}}>Career site by Teamtailor</p>
+              <p>Career site by Teamtailor</p>
           </div>
         </div>
       </div>

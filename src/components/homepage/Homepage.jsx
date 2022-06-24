@@ -20,7 +20,7 @@ import img5 from "../homepage/homepageimg/5.png";
 import img6 from "../homepage/homepageimg/first.gif";
 import img7 from "../homepage/homepageimg/7.png";
 import img8 from "../homepage/homepageimg/8.png";
-// import img99 from "../homepage/homepageimg/9.png";
+import img99 from "../homepage/homepageimg/9.png";
 import img9 from "../homepage/homepageimg/img6.svg";
 import img10 from "../homepage/homepageimg/thumbnail2.png";
 import img11 from "../homepage/homepageimg/icon1.png";
@@ -77,31 +77,43 @@ export const homepage = () => {
         <img className="img4" src={img4} />
 
         <div className="number-section">
-          <h2 style={{ fontsize: "30px" }}>
-            Moralis saves developers time and
+          <h2 >
+            Moralis saves <br/> developers time and
             <br /> money to ship scalable <br /> robust Dapps.
           </h2>
 
-          <div id="letter-let">
+          <div className="letter-let">
             <p className="letter" style={{ color: "black" }}>
-              <CountUp start={0} end={87} duration={5} prefix="%" />
+              <CountUp
+                style={{ color: "#000000", fontSize: "114px" }}
+                className="counnt"
+                start={0}
+                end={87}
+                duration={5}
+                prefix=""
+
+              />
+              %
               <br />
             </p>
-            <p className="paraaa">Average Reduction In Time-To-Market</p>
+            <p className="paraaa">Average <br/> Reduction In<br/> Time-To-Market</p>
+           
             <p className="letter">
               {" "}
               <CountUp
+                style={{ color: "#000000", fontSize: "114px" }}
+                className="counnt"
                 start={5}
                 end={86.4}
                 duration={5}
+                decimals={1}
                 prefix="$"
-                decimal={0.4}
               />
+              
+              <span style={{fontSize:"50px",color:"black"}} className="MM">M</span>
             </p>
+            <p className="paraaa1">Total<br/> Engineering<br/> Costs Saved</p>
 
-            <p className="paraaa">Average Reduction In Time-To-Market</p>
-
-            <p className="paraaa">Total Engineering Costs Saved</p>
           </div>
         </div>
       </div>
@@ -184,19 +196,19 @@ export const homepage = () => {
         <img className="img7" src={img7} />
         <div className="gif-text-section">
           <h1>Web SDKs</h1>
-          <p  >
-            Bring web3 to your webpage by using vanillla<br/> Javascript or our
-            dedicated React SDKs.
+          <p>
+            Bring web3 to your webpage by using vanillla
+            <br /> Javascript or our dedicated React SDKs.
           </p>
           <h1>Game SDK</h1>
-          <p >
-            Build web3 games for any platform including web,<br/> mobile, Xbox and
-            Playstation using Moralis Unity SDK.
+          <p>
+            Build web3 games for any platform including web,
+            <br /> mobile, Xbox and Playstation using Moralis Unity SDK.
           </p>
           <h1>Backend SDK</h1>
           <p>
-            Connect your backend infrastructure to web3 and all<br/> Moralis features
-            using our NodeJS SDK.
+            Connect your backend infrastructure to web3 and all
+            <br /> Moralis features using our NodeJS SDK.
           </p>
         </div>
       </div>
@@ -226,7 +238,7 @@ export const homepage = () => {
           <BsArrowRightCircle className="styling" /> Start For Free
         </a>
       </div>
-      {/* <img className="img99" src={img99} /> */}
+      <img className="img99" src={img99} />
       {/* <h1 className="heading5">
       Endless Integration with an <br/> Ecosystem of Plugins
       </h1>
@@ -257,13 +269,17 @@ export const homepage = () => {
               height="550px"
               url="https://youtu.be/sAcEJcwPTOk"
             />
+            
           </div>
-          <div className="thumbnail-2">
-            <img src={img10} className="img10" />
-          </div>
-          <button type="button" class="btn btn-light btn-lg" id="learnmore">
+          
+            <div style={{width:"100%",display:"flex",justifyContent:"center",alignItems:"flex-end",boxShadow:"10px 10px 5px #ccc"}} className="img100" >
+              <img src={img10} className="imgstyle" alt="" />
+            <button style={{position:"absolute",marginTop:"-10px"}} type="button" className="btn btn-outline-light btn-lg" id="learnmore">
             Learn more
           </button>
+          </div>
+     
+
           <div className="thumbnail-3">
             <h1>
               Join the community <br /> learn Web3 Development
@@ -275,7 +291,7 @@ export const homepage = () => {
             <div className="thumbnail-images">
               <div className="thumbnail-image-1">
                 <img src={img11} className="img11" />
-                <h1 style={{ color: "black" }}>Discord Community</h1>
+                <h1 style={{ color: "black" ,fontweight:"bolder" }}>Discord Community</h1>
                 <p>
                   Join our DAO Discord Community, warmly
                   <br /> introduce yourself, and connect with other Dapp

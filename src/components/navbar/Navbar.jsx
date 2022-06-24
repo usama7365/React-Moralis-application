@@ -41,12 +41,12 @@ export const Navbar = () => {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <Link to="/Pricepage">
+                  <Link to="React-Moralis-application/Pricepage">
                     <a
                       id="hello1"
                       class="nav-link active"
                       aria-current="page"
-                      href="/"
+                      href="React-Moralis-application/"
                     >
                       Products
                     </a>
@@ -135,7 +135,7 @@ export const Navbar = () => {
                 </li>
               </ul>
               <form class="d-flex"  >
-              <Link to="/Loginpage"> <button class="btn btn-outline-primary" type="submit">
+              <Link to="React-Moralis-application/Loginpage"> <button class="btn btn-outline-primary" type="submit">
                   Login
                 </button></Link> 
               </form>
@@ -159,13 +159,13 @@ export const Navbar = () => {
       </div>
 
         <Routes>
-          <Route exact path="/" element={<Homepage />} />
-          <Route path="/Pricepage" element={<Pricepage />} />
+          <Route exact path="React-Moralis-application/" element={<Homepage />} />
+          <Route path="React-Moralis-application/Pricepage" element={<Pricepage />} />
           <Route path="/https://moralis.io/blog/" element={<Pricepage/>}/>
-          <Route path="/Blogs" element={<Blogs />} />
-          <Route path="/Login" element={<Login/>}/>
-          <Route path="/Register" element={<Register/>}/>
-          <Route path="/Careerspage" element={<Careerspage/>}/>
+          <Route path="React-Moralis-application/Blogs" element={<Blogs />} />
+          <Route path="React-Moralis-application/Login" element={<Login/>}/>
+          <Route path="React-Moralis-application/Register" element={<Register/>}/>
+          <Route path="React-Moralis-application/Careerspage" element={<Careerspage/>}/>
         </Routes>
       </Router>
       {/* 1st logo */}

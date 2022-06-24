@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Moralis-application/static/css/main.c9d3e680.css",
-    "main.js": "/React-Moralis-application/static/js/main.c26e6412.js",
+    "main.js": "/React-Moralis-application/static/js/main.9f981e0d.js",
     "static/js/787.1e47d8c2.chunk.js": "/React-Moralis-application/static/js/787.1e47d8c2.chunk.js",
     "static/media/first.gif": "/React-Moralis-application/static/media/first.cec60f8ef1a495b5b8c0.gif",
     "static/media/thumbnail2.png": "/React-Moralis-application/static/media/thumbnail2.8ce0163fa8d077e87c3b.png",
@@ -37,11 +37,11 @@
     "static/media/div1img.svg": "/React-Moralis-application/static/media/div1img.f0f04769177a686103e4b4a5da97e94e.svg",
     "index.html": "/React-Moralis-application/index.html",
     "main.c9d3e680.css.map": "/React-Moralis-application/static/css/main.c9d3e680.css.map",
-    "main.c26e6412.js.map": "/React-Moralis-application/static/js/main.c26e6412.js.map",
+    "main.9f981e0d.js.map": "/React-Moralis-application/static/js/main.9f981e0d.js.map",
     "787.1e47d8c2.chunk.js.map": "/React-Moralis-application/static/js/787.1e47d8c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9d3e680.css",
-    "static/js/main.c26e6412.js"
+    "static/js/main.9f981e0d.js"
   ]
 }
